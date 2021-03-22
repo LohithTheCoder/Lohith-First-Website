@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.new-container {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(150deg, whitesmoke 0%, rgb(252, 212, 83) 62%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h1 {
+    margin: 0;
+    font-family: cursive;
+    font-size: 50px;
+    display: flex;
+}
+
+main {
+    margin: 0;
+    height: 75vh;
+    width: 70vw;
+    background-color: rgb(90, 167, 255);
+    border: black 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+margin: 0;
+ width: 100%; height: 100%; 
+ display: grid; 
+ grid-template-columns: 1fr; 
+ grid-template-rows: 1fr 1fr 0.5fr;
+
+}
+.username{
+    margin: 0; font-size: 40px; display: flex; justify-content: center; align-items: center;
+}
+.username input{margin: 0; font-size: 25px; height: 40px; width: 700px;
+}
+.username input::-webkit-input-placeholder{
+    margin: 0;
+    font-size: 22px;
+}
+.password input::-webkit-input-placeholder{
+    margin: 0;
+    font-size: 22px;
+}
+.password input{
+    margin: 0;font-size: 25px;height: 40px;width: 700px;
+}
+.password{
+    margin: 0;font-size: 40px;display: flex;justify-content: center;align-items: center; flex-direction: column;
+}
+.btn{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-info-container{
+    height: 70px;
+    width: 100px;
+    border: 3px black solid;
+    border-radius: 20%;
+    background-color: rgb(72, 255, 0);
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    margin: 0;
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 25%, rgba(253,29,29,1) 75%);;
+    border: 3px black solid;
+    border-radius: 10%;
+    font-size: 25px;
+}
